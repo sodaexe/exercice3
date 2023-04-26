@@ -18,7 +18,7 @@ h2 {
     font-size: 30px;
 }
 
-#main {
+#section {
     margin: 50px auto;
     padding: 10px 30px 10px 40px;
     max-width: 65vw; 
@@ -61,16 +61,16 @@ h2 {
     transition: background .5s;  
 }
 
-.content {
+.main {
     font-size: 14px;
     background-color: white;
 }
 
-.content img {
+.main img {
     border-radius: 20px;
 }
 
-.content button {
+.main button {
     margin: 10px 0;
     padding: 10px 20px;
     border: 0;
@@ -79,7 +79,7 @@ h2 {
     background-color: pink;
 }
 
-.content button:hover {
+.main button:hover {
     background-color: gold;
     cursor: pointer; 
     transition: background .5s;
